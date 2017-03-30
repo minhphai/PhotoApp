@@ -1,0 +1,37 @@
+PODS:
+  - Alamofire (4.2.0)
+  - AlamofireImage (3.2.0):
+    - Alamofire (~> 4.1)
+  - SwiftyJSON (2.3.2)
+  - WARangeSlider (1.1.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage
+  - SwiftyJSON (from `https://github.com/acegreen/SwiftyJSON.git`, branch `swift3`)
+  - WARangeSlider (from `https://github.com/warchimede/RangeSlider.git`)
+
+EXTERNAL SOURCES:
+  SwiftyJSON:
+    :branch: swift3
+    :git: https://github.com/acegreen/SwiftyJSON.git
+  WARangeSlider:
+    :git: https://github.com/warchimede/RangeSlider.git
+
+CHECKOUT OPTIONS:
+  SwiftyJSON:
+    :commit: 8971384559780e631b041ac91b16734a396d4c14
+    :git: https://github.com/acegreen/SwiftyJSON.git
+  WARangeSlider:
+    :commit: d7130c7b55d6230eb5da94eec71708178ed0d305
+    :git: https://github.com/warchimede/RangeSlider.git
+
+SPEC CHECKSUMS:
+  Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
+  AlamofireImage: 157ed682cc81d3b9db4fb90c1f12180ac552d93b
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+  WARangeSlider: a7d9bd9fbbde401bff957677efad7150c9b4bb71
+
+PODFILE CHECKSUM: 6060797362f01bd6fa7cd34c9824e7cb8a978898
+
+COCOAPODS: 1.0.1
